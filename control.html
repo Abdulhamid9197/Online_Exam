@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sugar Information Management</h1>
+
+ 
+
+    <h2>Add a New Sugar</h2>
+    <form action="sugar_data.php" method="post">
+        <label for="sugar_name">Sugar Name:</label><br>
+        <input type="text" id="sugar_name" name="sugar_name" required><br><br>
+        <label for="sugar_type">Sugar Type ( white sugar or  brown sugar):</label><br>
+        <input type="text" id="sugar_type" name="sugar_type" required><br><br>
+        <label for="health_impact">Health Impact (brief description):</label><br>
+        <textarea id="health_impact" name="health_impact" rows="4" cols="50" required></textarea><br><br>
+        <button type="submit">Add Sugar</button>
+	
+    </form>
+	<br><br>
+		 <button type="submit"><a href="sugar_data.php">View Existing Sugars</a></button>
+
+ <p><a href="index.html">Go Home</a></p>
+   
+	
+	<script>
+prompt("What is your name", "Enter your name here");
+</script>
+	
+</body>
+</html>
+
+<?php 
+
+?>
+
+</html>
